@@ -24,8 +24,6 @@ void PrintMatrix(int[,,] ThreeMatrix)
     }
 }
 
-
-Console.Clear();
 Console.Write("Введите размер трехмерного массива: ");
 int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
 while (size[0] * size[1] * size[2] > 90)
